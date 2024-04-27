@@ -1,0 +1,45 @@
+nav{
+    background-color: navy;
+    display: flex;
+    justify-content: space-evenly;
+}
+#container{
+    margin-top: 30px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 10px;
+
+}
+#seprate_box img{
+    width: 23%;
+    margin: auto;
+}
+#seprate_box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+   border-radius: 8px;
+}
+/* responsivness */
+@media screen  and (max-width:500){
+    #container{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+   
+}
+@media screen  and (max-width:800){
+    #container{
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+   
+}
+@media screen  and (min-width:801){
+    #container{
+        grid-template-columns: repeat(4,1fr);
+        
+    }
+   
+}
