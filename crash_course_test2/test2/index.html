@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>test2</title>
+</head>
+<body>
+    <h1>Employee Management System</h1>
+    <div id="functionality">
+        <!-- Filter by deparment -->
+        <div class="inner-div">
+            <h4>Filter by deparment</h4>
+            <select name="" id="Select_Departmen">
+                <option value="">Select Departmen</option>
+                <option value="hr">hr</option>
+                <option value="finance">finance</option>
+                <option value="marketing">marketing</option>
+                <option value="engineering">engineering</option>
+                <option value="operations">operations</option>
+            </select>
+
+        </div>
+        <!-- Filter by Gender -->
+        <div class="inner-div">
+            <h4>Filter by Gender</h4>
+            <select name="" id="gender">
+                <option value="">Select gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select>
+
+        </div>
+        <!-- Sort by Salary -->
+        <div class="inner-div">
+            <h4>Sort by Salary</h4>
+            <select name="" id="Salary">
+                <option value="asc">Low to high</option>
+                <option value="des">HIgh to low</option>
+               
+            </select>
+        </div>
+    </div>
+    <!-- data in table -->
+    <table id="table-container" border="2px black solid" >
+        <thead>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            <!-- append here -->
+        </tbody>
+    </table>
+    <button id="Previous">Previous</button>
+    <button id="Next">Next</button>
+</body>
+<script src="index.js"></script>
+</html>

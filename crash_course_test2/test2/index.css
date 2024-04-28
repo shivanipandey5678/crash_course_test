@@ -1,0 +1,17 @@
+#functionality{
+    width: 100%;
+   background-color: gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner-div{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.inner-div>select{
+ height: 30px;
+}
+#table-container{
+    width: 100%;
+}
